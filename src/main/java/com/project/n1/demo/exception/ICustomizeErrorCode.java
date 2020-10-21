@@ -1,7 +1,8 @@
 package com.project.n1.demo.exception;
 
-public interface CustomizeErrorCode {
-    String message=null;
+public interface ICustomizeErrorCode {
+    String getMessage();
+    Integer getCode();
 
 
 }
